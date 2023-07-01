@@ -53,15 +53,18 @@ List<Task> tasksForUIUX = [
   Task(title: "Sua thiet ke lan 2", note: "Chinh sua, can doi bo cuc giao dien",owner: userForUIUX[0], date: DateTime(2023,7,4),users: [users[0],users[1],users[2],users[3]],startTime: "8:30 PM",endTime: "11:00 PM"),
   Task(title: "Sua thiet ke lan 3", note:"Hoan thanh bo cuc giao dien",owner: userForUIUX[2], date: DateTime(2023,7,6),users: [users[0],users[1],users[2],users[3]],startTime: "8:00 PM",endTime: "11:30 PM"),
   Task(title: "Tai lieu bao cao",note: "Hoan thanh tai lieu thiet ke", owner: users[4], date: DateTime(2023,7,9),users: [users[0],users[1],users[2],users[3],users[4]],startTime: "10:00 AM",endTime: "12:00 AM"),
+  Task(title: "Bao cao",note: "Bao cao UIUX", owner: users[4], date: DateTime(2023,7,9),users: [users[0],users[1],users[2],users[3],users[4]],startTime: "6:45 AM",endTime: "9:00 AM"),
 ];
 
 List<Task> tasksForSoftware = [
-  Task(title: "Lam quen thanh vien",owner: users[3], date: DateTime.utc(2023,6,2),status: Status.COMPLETED,users: [users[1],users[2],users[4],users[5],users[6],users[7]],startTime: "10:30 AM",endTime: "11:30AM"),
+  Task(title: "Lam quen thanh vien",owner: users[3], date: DateTime.utc(2023,6,2),status: Status.COMPLETED,users: [users[0],users[1],users[2],users[4],users[5],users[6],users[7]],startTime: "10:30 AM",endTime: "11:30AM"),
   Task(title: "Trien khai bai tap lon",note: "Thong nhat phuong an trien khai btl", owner: userForSoftware[5], date: DateTime.utc(2023,6,11),status: Status.COMPLETED,users: [users[1],users[3]],startTime: "10:30 AM",endTime: "11:30AM"),
   Task(title: "Coding", note: "Cai dat chuong tirnh btl",owner: userForSoftware[5],status: Status.INPROGRESS, date: DateTime(2023,6,25),users: [users[2],users[3],users[7]],startTime: "8:00 PM",endTime: "11:30 PM"),
   Task(title: "Coding lan 2", note: "Xay dung giao dien",owner: userForSoftware[6],status: Status.INPROGRESS, date: DateTime(2023,6,27),users: [users[1],users[2],users[3]],startTime: "8:30 PM",endTime: "11:00 PM"),
   Task(title: "Coding lan 3", note:"Kiem thu phan mem",owner: userForSoftware[6], date: DateTime(2023,7,2),users: [users[1],users[2],users[3],users[7]],startTime: "8:00 PM",endTime: "11:30 PM"),
-  Task(title: "Tai lieu",note: "Hoan thanh bao cao", owner: users[3], date: DateTime(2023,7,3),users: [users[1],users[2],users[4],users[5],users[6],users[7]],startTime: "10:00 AM",endTime: "12:00 AM"),
+  Task(title: "Tai lieu",note: "Hoan thanh bao cao", owner: users[3], date: DateTime(2023,7,2),users: [users[1],users[2],users[4],users[5],users[6],users[7]],startTime: "10:00 AM",endTime: "12:00 AM"),
+  Task(title: "Coding lan 4",note: "Xay dung backend", owner: users[3], date: DateTime(2023,7,5),users: [users[0],users[1],users[2],users[4],users[5],users[6],users[7]],startTime: "10:00 AM",endTime: "12:00 AM"),
+  Task(title: "Lam tai lieu",note: "Kiem tra lai bao cao", owner: users[3], date: DateTime(2023,7,4),users: [users[0],users[1],users[2],users[4],users[5],users[6],users[7]],startTime: "10:00 AM",endTime: "12:00 AM"),
 ];
 
 List<Task> tasksForPersonal = [
