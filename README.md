@@ -1,4 +1,4 @@
-# 356Calendar
+# 365Calendar
 
 ## Getting Started
 
