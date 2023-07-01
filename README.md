@@ -1,6 +1,4 @@
-# ebook
-
-A new Flutter project.
+# 365Calendar
 
 ## Getting Started
 
